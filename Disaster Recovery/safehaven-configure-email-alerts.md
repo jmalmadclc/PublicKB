@@ -69,6 +69,10 @@ AuthUser=UserName@t3mx.com
 AuthPass=*****************
 UseSTARTTLS=no
 ```
+### Testing the email service
+In SafeHaven 3.1, you can send a test email through the GUI of your console.
+
+In 3.0, issue the following command on your CMS via SSH: echo "Email Content" | mutt -s "email title" <receptient email addresses>
 
 ### Connecting to the SMTP Relay Service:
 
