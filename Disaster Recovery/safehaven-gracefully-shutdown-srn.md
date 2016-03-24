@@ -26,7 +26,7 @@ Rebooting an SRN without taking the proper steps for a graceful shutdown can cau
 
   a.	`scstadmin -list_target`
 
-  b.	Perform the following command with each IQN pasted into the <target name> field: `scstadmin -rem_target <the target name> -driver iscsi`
+  b.	Perform the following command with each IQN pasted into the <target name> field: `scstadmin -disable_target <the target IQN name> -driver iscsi`
 
 5.	Deactivate the Pluns (logical volumes) for the protection groups:
   a. Run `lvscan`
