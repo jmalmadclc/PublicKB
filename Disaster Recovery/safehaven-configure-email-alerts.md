@@ -19,6 +19,8 @@ SafeHaven provides automatic reports on the cluster health and performance. If, 
 3. Enter the relevant information for your SMTP relay server:
 
  ![SafeHavenEmail](../images/safehaven-configure-email-alerts.PNG)
+ 
+ **PLEASE NOTE THAT THE FOLLOWING SPECIAL CHARACTERS WILL CAUSE EMAIL ALERTING TO FAIL: `#, =, : and space`. If your generated relay has any of these characters in the password, simply delete and recreate a new relay until you receive a password that conforms with the supported characters.**
 
 4. Verify that the "Report Settings" configuration and timing is correct:
 
